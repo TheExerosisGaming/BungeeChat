@@ -1,0 +1,17 @@
+name: BungeeChat
+version: 1.7.4
+description: Syncs chats between servers on a BungeeCord network.
+main: me.exerosis.bungee.BungeeChatClient
+author: Exerosis exerosis@gmail.com
+
+commands:
+    bungeeChat
+      aliases: BC, BChat, BungeeC, BungeeChatClient, BCC, BChatClient, BungeeCC, BCClient, BungeeCClient
+      permission: bungeeChat
+      permission-message: Unfortuntaly you don't have the permissions to use a command like that!
+      description: Disable or enable forwarding this servers chat.
+      usage: Syntax error! Perhaps you meant /<command> Enable/Disable.
+permissions:
+    bungeeChat
+     description: The permission needed to disable or enable forwarding this servers chat.
+     default: false
