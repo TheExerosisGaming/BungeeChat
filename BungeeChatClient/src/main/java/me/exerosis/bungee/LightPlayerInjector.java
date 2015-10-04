@@ -36,7 +36,7 @@ public class LightPlayerInjector extends ChannelDuplexHandler {
         inject();
     }
 
-    //Private methods for handling in initialization and event firing.
+    //Private methods for handling in initialization and events firing.
     private static void initializeFields() {
         if (CHANNEL_FIELD != null)
             return;
